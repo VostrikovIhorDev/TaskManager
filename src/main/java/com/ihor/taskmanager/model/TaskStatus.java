@@ -1,4 +1,4 @@
-package com.ihor.taskmanager;
+package com.ihor.taskmanager.model;
 
 public enum TaskStatus {
 

@@ -1,4 +1,4 @@
-package com.ihor.taskmanager;
+package com.ihor.taskmanager.model;
 
 import java.time.LocalDateTime;
 
@@ -24,6 +24,15 @@ public class Task {
         this.status = TaskStatus.TODO;
         this.priority = priority;
         this.createdAt = LocalDateTime.now();
+    }
+
+    public Task(Long id, String title,  String description, TaskStatus status,TaskPriority priority, LocalDateTime createdAt) {
+        this.id = id;
+        this.title = title;
+        this.description = description;
+        this.status = status;
+        this.priority = priority;
+        this.createdAt = createdAt;
     }
 
     public Long getId() {
