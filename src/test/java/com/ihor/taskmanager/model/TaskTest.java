@@ -1,8 +1,5 @@
-package com.ihor.taskmanager;
+package com.ihor.taskmanager.model;
 
-import com.ihor.taskmanager.model.Task;
-import com.ihor.taskmanager.model.TaskPriority;
-import com.ihor.taskmanager.model.TaskStatus;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
